@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AE14A3C81BCC4A33006193E2 /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = AE14A3C71BCC4A33006193E2 /* FactBook.m */; settings = {ASSET_TAGS = (); }; };
+		AE14A3CB1BCC59EA006193E2 /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE14A3CA1BCC59EA006193E2 /* ColorWheel.m */; settings = {ASSET_TAGS = (); }; };
 		AE1DC7B11BCB42140022420B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1DC7B01BCB42140022420B /* main.m */; };
 		AE1DC7B41BCB42140022420B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1DC7B31BCB42140022420B /* AppDelegate.m */; };
 		AE1DC7B71BCB42140022420B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1DC7B61BCB42140022420B /* ViewController.m */; };
@@ -19,6 +20,8 @@
 /* Begin PBXFileReference section */
 		AE14A3C61BCC4A33006193E2 /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
 		AE14A3C71BCC4A33006193E2 /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
+		AE14A3C91BCC59EA006193E2 /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		AE14A3CA1BCC59EA006193E2 /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
 		AE1DC7AC1BCB42140022420B /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1DC7B01BCB42140022420B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE1DC7B21BCB42140022420B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +75,8 @@
 				AE1DC7AF1BCB42140022420B /* Supporting Files */,
 				AE14A3C61BCC4A33006193E2 /* FactBook.h */,
 				AE14A3C71BCC4A33006193E2 /* FactBook.m */,
+				AE14A3C91BCC59EA006193E2 /* ColorWheel.h */,
+				AE14A3CA1BCC59EA006193E2 /* ColorWheel.m */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 				AE1DC7B41BCB42140022420B /* AppDelegate.m in Sources */,
 				AE14A3C81BCC4A33006193E2 /* FactBook.m in Sources */,
 				AE1DC7B11BCB42140022420B /* main.m in Sources */,
+				AE14A3CB1BCC59EA006193E2 /* ColorWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
