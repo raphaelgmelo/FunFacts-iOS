@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE14A3C81BCC4A33006193E2 /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = AE14A3C71BCC4A33006193E2 /* FactBook.m */; settings = {ASSET_TAGS = (); }; };
 		AE1DC7B11BCB42140022420B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1DC7B01BCB42140022420B /* main.m */; };
 		AE1DC7B41BCB42140022420B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1DC7B31BCB42140022420B /* AppDelegate.m */; };
 		AE1DC7B71BCB42140022420B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE1DC7B61BCB42140022420B /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE14A3C61BCC4A33006193E2 /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
+		AE14A3C71BCC4A33006193E2 /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
 		AE1DC7AC1BCB42140022420B /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1DC7B01BCB42140022420B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE1DC7B21BCB42140022420B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				AE1DC7BD1BCB42140022420B /* LaunchScreen.storyboard */,
 				AE1DC7C01BCB42140022420B /* Info.plist */,
 				AE1DC7AF1BCB42140022420B /* Supporting Files */,
+				AE14A3C61BCC4A33006193E2 /* FactBook.h */,
+				AE14A3C71BCC4A33006193E2 /* FactBook.m */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			files = (
 				AE1DC7B71BCB42140022420B /* ViewController.m in Sources */,
 				AE1DC7B41BCB42140022420B /* AppDelegate.m in Sources */,
+				AE14A3C81BCC4A33006193E2 /* FactBook.m in Sources */,
 				AE1DC7B11BCB42140022420B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +304,7 @@
 				AE1DC7C51BCB42140022420B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
